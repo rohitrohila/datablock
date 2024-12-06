@@ -1,0 +1,19 @@
+/* Global Layout */
+.app {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Styling */
+.header {
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+

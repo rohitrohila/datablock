@@ -1,0 +1,34 @@
+.modal {
+    position: fixed;  /* Ensures it's placed above the React Flow canvas */
+    z-index: 1000;    /* Higher than React Flow's z-index */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+  .custom-modal {
+    width: 60%;   /* Custom width */
+    max-width: 800px; /* Max width */
+  }
+
+.custom-modal .modal-header {
+    background-color: #1A192B;
+    color: white;
+  }
+  
+  .custom-modal .modal-body {
+    background-color: #1A192B;
+    color: white;
+
+
+  }
+  
+  .custom-modal .modal-footer {
+    background-color: #1A192B;
+    color: white;
+
+
+  }

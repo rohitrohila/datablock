@@ -1,0 +1,12 @@
+{
+    "nodes": [
+      { "id": "1", "position": { "x": 0, "y": 50 }, "label": "Vendor1" },
+      { "id": "2", "position": { "x": 250, "y": 50 }, "label": "c2" },
+      { "id": "3", "position": { "x": 500, "y": 50 }, "label": "Cargo Hub" }
+    ],
+    "edges": [
+      { "id": "e1-2", "source": "1", "target": "2", "value": 150 },
+      { "id": "e2-3", "source": "2", "target": "3", "value": 50 }
+    ]
+  }
+  
